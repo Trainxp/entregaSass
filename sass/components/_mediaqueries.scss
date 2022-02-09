@@ -1,0 +1,58 @@
+/* media queries para movil */
+
+@media screen and (max-width:814px)  {
+    
+    .headerGrid {
+        margin-top: 6em;
+    }
+    nav{
+        
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        
+        ;
+        width:fit-content ;
+        margin: 0px;
+        margin-bottom: 0px;
+    }
+
+    
+
+    nav ul li{
+        padding: 19px;
+        width: 500px;
+        height: 20px;
+
+    }
+
+    main{
+        margin-top:1em;
+    }
+
+    a{
+        font-size: 1em;
+    }
+
+   
+
+    ul{
+        padding: 15px;
+      
+    }
+
+    .compu{
+        margin-left: 1em;
+        margin-top: 1px;
+        width: 90%;
+        
+    }
+
+    .footerGrid{
+
+        margin-top: -20em;
+        margin-left:1px ;
+        width: 100%;
+        max-height: 7em;
+    }
+}
